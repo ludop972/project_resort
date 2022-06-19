@@ -1,0 +1,272 @@
+* {
+    font-family: Times New Roman;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: white;;
+    height: 100px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px!important;
+    margin-right: 60px;
+}
+
+li a {
+    text-decoration: none!important;
+    color: rgb(0 111 255)!important;;
+    margin-right: 20px;
+}
+
+#image_a{
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 35px;
+    display: block;
+    margin: auto;
+}
+
+#formulaire_res{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bloc_reservation{
+    border-radius: 20px;
+    border: 1px solid #9999996b;
+    height: 180px;
+    background-color: rgb(59 76 123 / 60%);
+    bottom: 90px;
+    position: relative;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+    color: white;
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+
+.img-responsive{
+	width:100%;
+	height: 350px;
+	border-radius: 20px;
+	object-fit: cover;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+}
+
+#logo{
+    width: 180px;
+}
+
+
+.button_reserv{
+    background-color: #dd940ed1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    margin-top: 25px;
+    width: 120px;
+    position: relative;
+    bottom: 50px;
+    border-radius: 15px;
+}
+
+#recherche {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    border-radius: 13px;
+    height: 45px;
+    background-color: white;
+    width: 130px;
+}
+
+.label {
+    margin-left: 8px;
+}
+
+
+/*formulaire*/
+#maps{
+    width: 65%;
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#form2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* form{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+} */
+
+/* room */
+.img_h{
+    width: 500px;
+    border-radius: 13px;
+}
+
+.little_img{
+    width: 38px;
+}
+
+.bloc_room{
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.bloc_room2{
+    width: 700px!important;
+}
+
+.d-block{
+    width: 100%;
+    border-radius: 13px;
+}
+
+.tournesol{
+    object-fit: cover;
+}
+
+.page_room{
+    background-color: rgb(14 48 91 / 8%);
+    border-radius: 13px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* contact*/
+
+#logo-2{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+    width: 50%;
+}
+    
+.input_contact {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ffffffba;
+    
+}
+
+.input_login{
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ffffffba;
+}
+
+.login_bloc{
+    width: 350px;
+    border: 1px solid;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 13px;
+    margin-top: 20px;
+    height: 350px;
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #ffffffba;
+    height: 110px;
+}
+
+.bloc_add{
+    height: 350px;
+    border-radius: 8px 0px 8px 0px;
+    margin-left: 60px;
+}
+
+.info{
+    color: #5d637b;
+    text-align: center;
+}
+
+.bloc_contact{
+    margin-top: 30px;
+}
+
+.bloc_form{
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    background-image: url(../assets/media/pictures/acc.jpg); background-size: cover;
+    border-radius: 13px;
+    width: 500px;
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+#image_c{
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 35px;
+    display: block;
+    margin: auto;
+}
+/* formulaire de connexion */
+
+/* footer */
+footer {
+    background-color: rgba(84, 84, 173, 0.596);
+    height: 150px;
+    text-align: center;
+  
+}
+
+.copyright{
+    text-align: center;
+}
+
+.bloc_footer{
+    background-color: #393d89;
+    height: 250px;
+}
+
+#logo_white{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.li_footer[a]{
+    color: white!important;
+}
+
+/* login */
+
